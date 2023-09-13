@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
+import InputInicioSesion from '@/components/InputInicioSesion'
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -11,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} `}>
-       
+       <InputInicioSesion></InputInicioSesion>
       </main>
     </>
   )
